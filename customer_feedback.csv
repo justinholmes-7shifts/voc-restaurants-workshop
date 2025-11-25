@@ -1,0 +1,41 @@
+feedback_id,date,source,domain,customer_segment,feedback_text,sentiment
+1,2024-11-20,Gong,Scheduling,Quick Service,"Need ability to bulk edit shifts when we have menu changes. Takes 2 hours to manually update everyone's schedule",negative
+2,2024-11-19,Zendesk,Payroll,Full Service,"Tip pooling calculation doesn't match our house policy. We split tips 60/40 between FOH/BOH but the system only does even splits",negative
+3,2024-11-18,G2,Scheduling,Quick Service,"Love the mobile shift swaps! Our team uses it constantly. Reduced our no-shows by 30%",positive
+4,2024-11-17,Gong,Labor,Full Service,"Labor cost % reporting is delayed by 24 hours. Need real-time visibility when we're approaching overtime thresholds",negative
+5,2024-11-20,Zendesk,Scheduling,Fast Casual,"Can't copy a schedule template across multiple locations. Have to rebuild the same schedule 8 times for our franchise",negative
+6,2024-11-19,Gong,Payroll,Quick Service,"Auto-calculated breaks aren't accounting for our state's meal break laws. California requires 30min unpaid after 5 hours",critical
+7,2024-11-18,G2,Tips,Full Service,"Tip reporting for tax purposes is straightforward. CPA loves the exported reports",positive
+8,2024-11-17,Zendesk,Scheduling,Full Service,"Shift marketplace feature is a game changer. Staff can pick up shifts without manager approval within our rules",positive
+9,2024-11-20,Gong,Labor,Fast Casual,"Need integration with our POS (Toast) to pull actual sales data for labor forecasting. Current manual entry is error-prone",negative
+10,2024-11-19,Zendesk,Payroll,Full Service,"Payroll export to ADP works but requires too many manual steps. Should be one-click",negative
+11,2024-11-18,G2,Scheduling,Quick Service,"The AI scheduling suggestions are awful. Scheduled our best closer for morning prep shift",negative
+12,2024-11-17,Gong,Tips,Full Service,"Credit card tip distribution timing is confusing. Staff don't understand when tips hit their paycheck vs cash same-day",negative
+13,2024-11-20,Zendesk,Labor,Full Service,"Overtime alerts come too late. By the time I see the notification we're already 2 hours over budget",critical
+14,2024-11-19,G2,Scheduling,Fast Casual,"Mobile app is way better than our old scheduling board. Staff actually check their schedules now",positive
+15,2024-11-18,Gong,Payroll,Quick Service,"Minimum wage rate changes aren't automatic by jurisdiction. Had to manually update 47 employee records when city raised wages",negative
+16,2024-11-17,Zendesk,Tips,Full Service,"Tip pooling by position works great but need ability to exclude managers from the pool automatically per FLSA rules",negative
+17,2024-11-20,G2,Scheduling,Full Service,"Availability management is clunky. Staff can't set recurring unavailability like every Tuesday for school",negative
+18,2024-11-19,Gong,Labor,Quick Service,"Need forecasted vs actual labor cost comparison in real-time. Currently can only see this in weekly reports",negative
+19,2024-11-18,Zendesk,Payroll,Fast Casual,"Integration with Gusto payroll is seamless. Saves us 4 hours every pay period",positive
+20,2024-11-17,G2,Scheduling,Full Service,"Shift notes feature is perfect for communicating prep tasks. Much better than our old whiteboard system",positive
+21,2024-11-20,Gong,Tips,Fast Casual,"Cash tip tracking is manual. Need ability for staff to log cash tips in the app for accurate reporting",negative
+22,2024-11-19,Zendesk,Labor,Full Service,"Break compliance tracking is great but alerts should go to managers not just admin. Need role-based notifications",negative
+23,2024-11-18,G2,Payroll,Quick Service,"Tip credit calculation is wrong for tipped employees. System doesn't account for our state's tip credit rate of $5.12",critical
+24,2024-11-17,Gong,Scheduling,Fast Casual,"Open shift posting works but need ability to limit who can claim based on certifications. Only ServeState certified can bartend",negative
+25,2024-11-20,Zendesk,Labor,Full Service,"Labor forecasting based on sales is inaccurate for our business. We're event-based not consistent traffic",negative
+26,2024-11-19,G2,Tips,Full Service,"Auto tip-out to support staff (bussers, runners) based on sales is exactly what we needed. No more manual calculations",positive
+27,2024-11-18,Gong,Scheduling,Quick Service,"Time off requests get lost. Need better visibility into pending requests and ability to bulk approve",negative
+28,2024-11-17,Zendesk,Payroll,Fast Casual,"Payroll summary reports don't include our custom earning codes for uniform reimbursement and mileage",negative
+29,2024-11-20,G2,Labor,Full Service,"Real-time labor dashboard on the KDS screen is brilliant. Chef can see we're over on labor and cut people early",positive
+30,2024-11-19,Gong,Scheduling,Full Service,"Schedule publishing is too manual. Want automatic publish 2 weeks out so staff always have visibility",negative
+31,2024-11-18,Zendesk,Tips,Quick Service,"Tip pooling transparency for staff is great. They can see exactly how the pool was calculated each shift",positive
+32,2024-11-17,G2,Payroll,Full Service,"Need better overtime prediction. System should warn me when I'm scheduling someone into OT before I publish",negative
+33,2024-11-20,Gong,Labor,Fast Casual,"Sales forecasting integration with our reservation system (OpenTable) would make labor scheduling so much better",negative
+34,2024-11-19,Zendesk,Scheduling,Quick Service,"Shift reminders via text are reducing our no-call-no-shows significantly. Best feature we've added",positive
+35,2024-11-18,G2,Tips,Full Service,"Declared tips vs credit card tips reconciliation is confusing in the reports. Need clearer breakdown",negative
+36,2024-11-17,Gong,Payroll,Fast Casual,"Multi-location payroll consolidation doesn't work. Have to run separate payroll for each of our 5 locations",critical
+37,2024-11-20,Zendesk,Labor,Full Service,"Historical labor data exports are limited to 90 days. Need full year for our annual planning",negative
+38,2024-11-19,G2,Scheduling,Fast Casual,"Drag and drop scheduling is intuitive. Onboarded our new AGM in 15 minutes",positive
+39,2024-11-18,Gong,Tips,Full Service,"Service charge distribution rules are too rigid. We have different service charge rates for private events vs regular service",negative
+40,2024-11-17,Zendesk,Labor,Quick Service,"Predictive scheduling compliance features are ahead of the curve. Helps us stay compliant with new SF ordinances",positive
