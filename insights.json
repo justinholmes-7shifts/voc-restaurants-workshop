@@ -1,0 +1,177 @@
+{
+  "analysis_metadata": {
+    "domain": "Restaurant Scheduling",
+    "analysis_date": "2025-11-25",
+    "total_feedback_items": 40,
+    "scheduling_feedback_items": 13,
+    "date_range": {
+      "start": "2024-11-17",
+      "end": "2024-11-20"
+    },
+    "focus_area": "Scheduling-related feedback"
+  },
+  "pain_points": [
+    {
+      "category": "Operational",
+      "description": "Bulk editing shifts is extremely time-consuming and manual",
+      "frequency": 1,
+      "severity": "High",
+      "customer_quotes": [
+        "Need ability to bulk edit shifts when we have menu changes. Takes 2 hours to manually update everyone's schedule"
+      ],
+      "affected_segments": [
+        "Quick Service"
+      ],
+      "recommended_action": "Implement bulk edit functionality for shifts with multi-select capability to update multiple employee schedules simultaneously"
+    },
+    {
+      "category": "Operational",
+      "description": "Unable to copy schedule templates across multiple locations causing duplicate work",
+      "frequency": 1,
+      "severity": "High",
+      "customer_quotes": [
+        "Can't copy a schedule template across multiple locations. Have to rebuild the same schedule 8 times for our franchise"
+      ],
+      "affected_segments": [
+        "Fast Casual",
+        "Multi-location franchises"
+      ],
+      "recommended_action": "Build template management system that allows schedules to be saved and replicated across multiple locations with location-specific adjustments"
+    },
+    {
+      "category": "Operational",
+      "description": "Time off request management lacks visibility and bulk approval capabilities",
+      "frequency": 1,
+      "severity": "Medium",
+      "customer_quotes": [
+        "Time off requests get lost. Need better visibility into pending requests and ability to bulk approve"
+      ],
+      "affected_segments": [
+        "Quick Service"
+      ],
+      "recommended_action": "Create dedicated time off management dashboard with pending request queue, bulk approval actions, and notification system"
+    }
+  ],
+  "feature_requests": [
+    {
+      "feature_name": "Automatic Schedule Publishing",
+      "category": "Enhancement",
+      "description": "Automate schedule publishing at a set timeframe (e.g., 2 weeks out) to ensure consistent staff visibility without manual intervention",
+      "frequency": 1,
+      "priority": "High",
+      "customer_quotes": [
+        "Schedule publishing is too manual. Want automatic publish 2 weeks out so staff always have visibility"
+      ],
+      "business_impact": "Improves staff satisfaction and reduces scheduling conflicts by ensuring predictable schedule availability. Reduces manager workload.",
+      "effort_estimate": "Medium"
+    },
+    {
+      "feature_name": "Certification-based Shift Claiming",
+      "category": "New Capability",
+      "description": "Add ability to restrict open shift claiming based on employee certifications, licenses, or qualifications",
+      "frequency": 1,
+      "priority": "High",
+      "customer_quotes": [
+        "Open shift posting works but need ability to limit who can claim based on certifications. Only ServeState certified can bartend"
+      ],
+      "business_impact": "Ensures compliance with licensing requirements and prevents unqualified staff from taking inappropriate shifts. Critical for alcohol service, food safety, and specialized roles.",
+      "effort_estimate": "Medium"
+    },
+    {
+      "feature_name": "Pre-publish Overtime Prediction",
+      "category": "Enhancement",
+      "description": "Provide warnings when scheduling an employee into overtime before the schedule is published, enabling proactive adjustments",
+      "frequency": 1,
+      "priority": "High",
+      "customer_quotes": [
+        "Need better overtime prediction. System should warn me when I'm scheduling someone into OT before I publish"
+      ],
+      "business_impact": "Reduces unexpected labor costs and helps managers stay within budget by preventing accidental overtime scheduling.",
+      "effort_estimate": "Small"
+    }
+  ],
+  "positive_feedback": [
+    {
+      "category": "Feature",
+      "description": "Mobile shift swaps reducing no-shows",
+      "frequency": 1,
+      "customer_quotes": [
+        "Love the mobile shift swaps! Our team uses it constantly. Reduced our no-shows by 30%"
+      ],
+      "amplification_opportunities": "Highlight this feature in marketing materials and case studies showcasing measurable impact on no-show reduction"
+    },
+    {
+      "category": "Feature",
+      "description": "Shift marketplace with rule-based self-service",
+      "frequency": 1,
+      "customer_quotes": [
+        "Shift marketplace feature is a game changer. Staff can pick up shifts without manager approval within our rules"
+      ],
+      "amplification_opportunities": "Promote as a staff empowerment and manager time-saving feature"
+    },
+    {
+      "category": "Experience",
+      "description": "Shift reminders reducing no-call-no-shows",
+      "frequency": 1,
+      "customer_quotes": [
+        "Shift reminders via text are reducing our no-call-no-shows significantly. Best feature we've added"
+      ],
+      "amplification_opportunities": "Quantify impact across customer base and use as retention/upsell opportunity"
+    }
+  ],
+  "actionable_insights": [
+    {
+      "insight": "Multi-location operators face significant scheduling inefficiencies due to lack of template replication",
+      "evidence": "Franchise operators report rebuilding identical schedules 8+ times across locations, representing hours of duplicated effort weekly",
+      "recommendation": "Prioritize multi-location template management as it directly impacts scalability for franchise customers (likely high-value accounts)",
+      "priority": "Critical",
+      "stakeholders": [
+        "Product",
+        "Engineering",
+        "Customer Success"
+      ]
+    },
+    {
+      "insight": "Bulk operations are a consistent pain point in scheduling workflows",
+      "evidence": "Customers report 2-hour manual processes for tasks that should be automated (bulk shift editing, bulk approvals)",
+      "recommendation": "Conduct UX audit of all scheduling workflows to identify and implement batch operation capabilities across the board",
+      "priority": "High",
+      "stakeholders": [
+        "Product",
+        "UX Design",
+        "Engineering"
+      ]
+    },
+    {
+      "insight": "Compliance and qualification management is becoming table stakes",
+      "evidence": "Customers need certification-based access controls for shift claiming to maintain legal compliance (alcohol service, food safety)",
+      "recommendation": "Build employee qualification/certification management system integrated with scheduling rules engine",
+      "priority": "High",
+      "stakeholders": [
+        "Product",
+        "Engineering",
+        "Legal/Compliance"
+      ]
+    }
+  ],
+  "next_steps": [
+    {
+      "action": "Interview multi-location customers to gather detailed requirements for template management system",
+      "owner": "Product Team",
+      "timeline": "2 weeks",
+      "success_criteria": "Detailed feature spec with user flows for template creation, sharing, and customization across locations"
+    },
+    {
+      "action": "Implement pre-publish overtime warning system (quick win)",
+      "owner": "Engineering Team",
+      "timeline": "1 sprint",
+      "success_criteria": "Real-time validation when adding shifts that calculates projected weekly hours and displays warning when approaching or exceeding overtime threshold"
+    },
+    {
+      "action": "Design certification/qualification management MVP",
+      "owner": "Product + UX Team",
+      "timeline": "3 weeks",
+      "success_criteria": "Wireframes and technical spec for adding certifications to employee profiles and enforcing them in shift marketplace"
+    }
+  ]
+}
